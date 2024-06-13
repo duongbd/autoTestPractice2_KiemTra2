@@ -4,19 +4,19 @@
     <test name="Add Category Test Parallel Firefox" parallel="methods">
         <parameter name="browserName" value="firefox"/>
         <classes>
-            <class name="org.example.CMSTest" />
+            <class name="org.example.testcase.CategoryTest" />
         </classes>
     </test>
-<!--    <test name="Add Category Test Parallel Chrome" parallel="methods">-->
-<!--        <parameter name="browserName" value="chrome"/>-->
-<!--        <classes>-->
-<!--            <class name="org.example.CMSTest" />-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Add Category Test Parallel Edge" parallel="methods">-->
-<!--        <parameter name="browserName" value="edge"/>-->
-<!--        <classes>-->
-<!--            <class name="org.example.CMSTest" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Add Category Test Parallel Chrome" parallel="methods">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="org.example.testcase.CategoryTest" />
+        </classes>
+    </test>
+    <test name="Add Category Test Parallel Edge" parallel="methods">
+        <parameter name="browserName" value="edge"/>
+        <classes>
+            <class name="org.example.testcase.CategoryTest" />
+        </classes>
+    </test>
 </suite>
